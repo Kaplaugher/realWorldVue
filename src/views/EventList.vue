@@ -22,7 +22,8 @@ export default {
   },
   data() {
     return {
-      events: []
+      events: [],
+      event: {}
     };
   },
   created() {
