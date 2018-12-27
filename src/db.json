@@ -231,24 +231,6 @@
       "date": "",
       "time": "5:00",
       "attendees": []
-    },
-    {
-      "id": 9633756,
-      "user": {
-        "id": "abc123",
-        "name": "Kyle Plaugher"
-      },
-      "category": "animal welfare",
-      "organizer": {
-        "id": "abc123",
-        "name": "Kyle Plaugher"
-      },
-      "title": "Poop",
-      "description": "yo",
-      "location": "YOur moms house",
-      "date": "2018-12-11T18:24:00.000Z",
-      "time": "2:00",
-      "attendees": []
     }
   ]
 }
