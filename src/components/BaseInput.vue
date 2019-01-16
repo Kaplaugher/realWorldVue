@@ -1,0 +1,27 @@
+ <template>
+  <div>
+    <label v-if="label">{{ label }}</label>
+    <input
+      :id="label"
+      :value="value"
+      v-bind="$attrs"
+      @input="updateValue"
+    />
+  </div>
+</template>
+    
+    <script>
+export default {
+  props: {
+    value: [String, Number],
+    label: String
+  },
+  inheritAttrs: false,
+  methods: {
+    updateValue(event) {
+      // <-- method triggered by input event
+      this.$emit("input", event.target.value);
+    }
+  }
+};
+</script>
